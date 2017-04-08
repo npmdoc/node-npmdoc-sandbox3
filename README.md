@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/sandbox3.png?downloads=true)](https://www.npmjs.com/package/sandbox3)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-sandbox3%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-sandbox3%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.npmPackageListing.svg)
 
