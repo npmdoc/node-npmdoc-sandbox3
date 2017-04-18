@@ -1,9 +1,14 @@
-# api documentation for  sandbox3 (v0.0.38)  [![npm package](https://img.shields.io/npm/v/npmdoc-sandbox3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sandbox3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sandbox3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sandbox3)
+# npmdoc-sandbox3
+
+#### api documentation for  sandbox3 (v0.0.38)  [![npm package](https://img.shields.io/npm/v/npmdoc-sandbox3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sandbox3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sandbox3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sandbox3)
+
 #### this package is deprecated and superseded by [sandbox2](https://www.npmjs.com/package/sandbox2)
 
-[![NPM](https://nodei.co/npm/sandbox3.png?downloads=true)](https://www.npmjs.com/package/sandbox3)
+[![NPM](https://nodei.co/npm/sandbox3.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/sandbox3)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-sandbox3%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.npmPackageListing.svg)
 
@@ -27,27 +32,15 @@
     },
     "maintainers": [
         {
-            "name": "kaizhu",
-            "email": "kaizhu256@gmail.com"
+            "name": "kaizhu"
         }
     ],
     "name": "sandbox3",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "scripts": {},
     "version": "0.0.38"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module sandbox3](#apidoc.module.sandbox3)
-
-
-
-# <a name="apidoc.module.sandbox3"></a>[module sandbox3](#apidoc.module.sandbox3)
 
 
 
