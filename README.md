@@ -1,6 +1,6 @@
 # npmdoc-sandbox3
 
-#### api documentation for  sandbox3 (v0.0.38)  [![npm package](https://img.shields.io/npm/v/npmdoc-sandbox3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sandbox3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sandbox3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sandbox3)
+#### basic api documentation for  sandbox3 (v0.0.38)  [![npm package](https://img.shields.io/npm/v/npmdoc-sandbox3.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sandbox3) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sandbox3.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sandbox3)
 
 #### this package is deprecated and superseded by [sandbox2](https://www.npmjs.com/package/sandbox2)
 
@@ -38,7 +38,8 @@
     "name": "sandbox3",
     "optionalDependencies": {},
     "scripts": {},
-    "version": "0.0.38"
+    "version": "0.0.38",
+    "bin": {}
 }
 ```
 
