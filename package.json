@@ -19,6 +19,7 @@
     "main": "lib.npmdoc_sandbox3.js",
     "name": "npmdoc-sandbox3",
     "nameAlias": "npmdoc_sandbox3",
+    "nameLib": "npmdoc_sandbox3",
     "nameOriginal": "npmdoc-sandbox3",
     "os": [
         "darwin",
@@ -36,5 +37,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "2017.4.30"
+    "version": "2017.10.8"
 }

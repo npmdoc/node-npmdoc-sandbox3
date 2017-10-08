@@ -8,11 +8,11 @@
 
 - [https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-sandbox3/build/apidoc.html)
 
-![npmPackageListing](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenshot.npmPackageListing.svg)
 
-![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenCapture.npmPackageDependencyTree.svg)
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-sandbox3/build/screenshot.npmPackageDependencyTree.svg)
 
 
 
