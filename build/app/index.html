@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>npmdoc-sandbox3 (v2017.4.29)</title>
+<!-- "assets.index.default.template.html" -->
+<title>npmdoc-sandbox3 (v2017.4.30)</title>
 <style>
 /*csslint
     box-sizing: false,
@@ -20,9 +21,26 @@ body {
 body > * {
     margin-bottom: 1rem;
 }
+body > button {
+    width: 20rem;
+}
+button {
+    cursor: pointer;
+}
+.uiAnimateSlide {
+    overflow-y: hidden;
+    transition: border-bottom 250ms, border-top 250ms, margin-bottom 250ms, margin-top 250ms, max-height 250ms, min-height 250ms, padding-bottom 250ms, padding-top 250ms;
+}
 .utility2FooterDiv {
     margin-top: 20px;
     text-align: center;
+}
+.zeroPixel {
+    border: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
 }
 </style>
 <style>
@@ -39,9 +57,52 @@ textarea[readonly] {
 </style>
 </head>
 <body>
-
-<div id="ajaxProgressDiv1" style="background: #d00; height: 2px; left: 0; margin: 0; padding: 0; position: fixed; top: 0; transition: background 0.5s, width 1.5s; width: 25%;"></div>
-
+<div id="ajaxProgressDiv1" style="background: #d00; height: 2px; left: 0; margin: 0; padding: 0; position: fixed; top: 0; transition: background 500ms, width 1500ms; width: 0%;"></div>
+<script>
+/*jslint
+    bitwise: true,
+    browser: true,
+    maxerr: 8,
+    maxlen: 96,
+    node: true,
+    nomen: true,
+    regexp: true,
+    stupid: true
+*/
+(function () {
+    "use strict";
+    var ajaxProgressDiv1,
+        ajaxProgressState,
+        ajaxProgressUpdate,
+        timerIntervalAjaxProgressUpdate;
+    ajaxProgressDiv1 = document.querySelector("#ajaxProgressDiv1");
+    setTimeout(function () {
+        ajaxProgressDiv1.style.width = "25%";
+    });
+    ajaxProgressState = 0;
+    ajaxProgressUpdate = (window.local &&
+        window.local.ajaxProgressUpdate) || function () {
+        ajaxProgressDiv1.style.width = "100%";
+        setTimeout(function () {
+            ajaxProgressDiv1.style.background = "transparent";
+            setTimeout(function () {
+                ajaxProgressDiv1.style.width = "0%";
+            }, 500);
+        }, 1500);
+    };
+    timerIntervalAjaxProgressUpdate = setInterval(function () {
+        ajaxProgressState += 1;
+        ajaxProgressDiv1.style.width = Math.max(
+            100 - 75 * Math.exp(-0.125 * ajaxProgressState),
+            Number(ajaxProgressDiv1.style.width.slice(0, -1)) || 0
+        ) + "%";
+    }, 1000);
+    window.addEventListener("load", function () {
+        clearInterval(timerIntervalAjaxProgressUpdate);
+        ajaxProgressUpdate();
+    });
+}());
+</script>
 <h1>
 
     <a
@@ -51,7 +112,7 @@ textarea[readonly] {
         target="_blank"
     >
 
-        npmdoc-sandbox3 (v2017.4.29)
+        npmdoc-sandbox3 (v2017.4.30)
 
     </a>
 
@@ -60,7 +121,7 @@ textarea[readonly] {
 
 <h4><a download href="assets.app.js">download standalone app</a></h4>
 <button class="onclick onreset" id="testRunButton1">run internal test</button><br>
-<div id="testReportDiv1" style="display: none;"></div>
+<div class="uiAnimateSlide" id="testReportDiv1" style="border-bottom: 0; border-top: 0; margin-bottom: 0; margin-top: 0; max-height: 0; padding-bottom: 0; padding-top: 0;"></div>
 
 
 
@@ -71,10 +132,12 @@ textarea[readonly] {
 
 
 <script src="assets.utility2.rollup.js"></script>
-<script src="jsonp.utility2._stateInit?callback=window.utility2._stateInit"></script>
-<script src="assets.npmdoc_sandbox3.rollup.js"></script>
+<script>window.utility2.onResetBefore.counter += 1;</script>
+<script src="jsonp.utility2.stateInit?callback=window.utility2.stateInit"></script>
+<script src="assets.npmdoc_sandbox3.js"></script>
 <script src="assets.example.js"></script>
 <script src="assets.test.js"></script>
+<script>window.utility2.onResetBefore();</script>
 
 
 
