@@ -3857,7 +3857,7 @@ vendor\\)s\\{0,1\\}\\(\\b\\|_\\)\
                 console.assert(!error, error);
             });
         };
-        local.cliDict.touchlist = function () {
+        local.cliDict.touchList = function () {
         /*
          * fileRemoteList commitMessage
          * touch comma-separated fileRemoteList on github
@@ -25756,7 +25756,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/npmdoc/node-npmdoc-sandbox3",
             "npm_package_name": "npmdoc-sandbox3",
             "npm_package_nameLib": "npmdoc_sandbox3",
-            "npm_package_version": "2017.4.30"
+            "npm_package_version": "2017.10.8"
         }
     }
 });
